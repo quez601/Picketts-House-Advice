@@ -1,0 +1,773 @@
+html,body{
+    margin: 0px;
+    padding: 0px;
+    overflow: auto;
+}
+
+
+.large-pic{
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(/img/crib-1v.jpg) center/cover no-repeat;
+    height: 80vh;
+    width: 100%;
+}
+
+.text-box h3{
+    font-family: sans-serif;
+    font-weight: 300;
+    font-size: 25px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: middle;
+    position: relative;
+    top: 200px;
+    color: white;
+    padding-bottom: 20px;
+}
+
+.text-box h2 {
+    font-family: sans-serif;
+    font-weight: 100;
+    font-size: 70px;
+    text-align: center;
+    color: white;
+    display: flex;
+     flex-direction: column;
+     align-items: middle;
+     position: relative;
+     top: 200px;
+     padding-bottom: 20px;
+}
+
+.text-box h5 {
+    font-family: sans-serif;
+    font-weight: 300;
+    font-size: 15px;
+    text-align: center;
+    color: white;
+     display: flex;
+     flex-direction: column;
+     align-items: middle;
+     position: relative;
+     top: 200px;
+}
+
+/* section */
+ .text-box2{
+    border: 1px solid black;
+    width: 400px;
+    height: 400px;
+background-image: radial-gradient(circle, #000000, #362d34, #61596e, #818eb0, #92c9f1);
+    color: white;
+    position: relative;
+    top: 40px;
+    left: 80px;
+    margin-left: 170px;
+    padding: 30px 50px 20px 50px;  
+} 
+
+.text-box2 h2{
+   font-family: sans-serif;
+   font-weight: 300;
+   font-size: 30px;
+   text-align: center;
+   color: white;
+   padding-bottom: 20px;
+   margin-top: 60px; 
+}
+
+.text-box2 .button-1 {
+    font-family: sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    align-items: center;
+    text-align: center;
+    background: #92c9f1;
+    color: white;
+    margin-left: 70px;
+    padding: 5px 20px 5px 20px !important;
+    
+}
+
+.text-box2 p {
+    font-family: sans-serif;
+    font-weight: 300;
+    font-size: 10px;
+    text-align: center;
+    color: white;
+    padding-top: 30px;
+}
+
+.text-box3{
+    margin: 80px 0px 0px 0px;
+}
+
+.text-box3 .h-1{
+    font-size: 35px;
+    font-weight: 300;
+    margin-left: 20px;
+    margin-bottom: 30px;
+}
+
+.text-box3 ul{
+    margin-right: 40px;
+}
+
+.text-box3 .l-1{
+    margin-right: 40px;
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+.text-box3 .l-2 {
+    margin-right: 40px;
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+.text-box3 .l-3 {
+    margin-right: 40px;
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+/* section 2*/
+.text-box4{
+       
+}
+
+.jumbotron {
+    padding: 0px !important;
+    margin: 100px 0px 0px 0px !important;
+    height: 560px !important;
+    position: relative;
+    top: 800 !important;
+    width: 100%;
+
+}
+
+.text-box4 h1{
+    font-family: sans-serif;
+    font-weight: 300;
+    font-size: 35px;
+    margin: 60px 0px 40px 0px;
+    text-align: center;
+    
+}
+
+.text-box4 .img-1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0px auto;
+    height: 120px;
+    padding-bottom: 20px;
+}
+
+.text-box4 p {
+    font-family: sans-serif;
+    font-size: 25px;
+    text-align: center;
+    margin-top: 20px; 
+        margin-bottom: 40px;
+}
+
+.text-box4 h4{
+    font-family: sans-serif;
+    font-weight: 300;
+    font-size: 15px;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+
+.text-box4 .p-1 {
+    font-family: sans-serif;
+    font-size: 15px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+
+/* media qurries */
+
+/* desktop*/
+@media only screen  and (min-width: 960px){
+    whole{
+        width: 100%;
+    }
+
+    .large-pic {
+        background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/img/crib-1v.jpg) center/cover no-repeat;
+        height: 80vh;
+        width: 100%;
+    }
+
+    .text-box h3 {
+        font-family: sans-serif;
+        font-weight: 300;
+        font-size: 40px;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        align-items: middle;
+        position: relative;
+        top: 200px;
+        color: white;
+        padding-bottom: 20px;
+    }
+
+    .text-box h2 {
+        font-family: sans-serif;
+        font-weight: 100;
+        font-size: 70px;
+        text-align: center;
+        color: white;
+        display: flex;
+        flex-direction: column;
+        align-items: middle;
+        position: relative;
+        top: 200px;
+        padding-bottom: 20px;
+    }
+
+    .text-box h5 {
+        font-family: sans-serif;
+        font-weight: 300;
+        font-size: 30px;
+        text-align: center;
+        color: white;
+        display: flex;
+        flex-direction: column;
+        align-items: middle;
+        position: relative;
+        top: 200px;
+    }
+
+    /* section */
+    .text-box2 {
+        border: 1px solid black;
+        width: 400px;
+        height: 400px;
+        background-image: radial-gradient(circle, #000000, #362d34, #61596e, #818eb0, #92c9f1);
+        color: white;
+        position: relative;
+        top: 70px;
+        left: -70px;
+        margin-left: 170px;
+        padding: 30px 50px 20px 50px;
+    }
+
+    .text-box2 h2 {
+        font-family: sans-serif;
+        font-weight: 300;
+        font-size: 30px;
+        text-align: center;
+        color: white;
+        padding-bottom: 20px;
+        margin-top: 60px;
+    }
+
+    .text-box2 .button-1 {
+        font-family: sans-serif;
+        font-weight: 300;
+        font-size: 20px;
+        align-items: center;
+        text-align: center;
+        background: #92c9f1;
+        color: white;
+        margin-left: 70px;
+        padding: 5px 20px 5px 20px !important;
+
+    }
+
+    .text-box2 p {
+        font-family: sans-serif;
+        font-weight: 300;
+        font-size: 10px;
+        text-align: center;
+        color: white;
+        padding-top: 30px;
+    }
+
+    .text-box3 {
+        margin: 80px 0px 0px 0px;
+    }
+
+    .text-box3 .h-1 {
+        font-size: 35px;
+        font-weight: 300;
+        margin-left: 20px;
+        margin-bottom: 30px;
+    }
+
+    .text-box3 ul {
+        margin-right: 40px;
+    }
+
+    .text-box3 .l-1 {
+        margin-right: 40px;
+        font-size: 20px;
+        font-weight: 400;
+        margin-bottom: 20px;
+    }
+
+    .text-box3 .l-2 {
+        margin-right: 40px;
+        font-size: 20px;
+        font-weight: 400;
+        margin-bottom: 20px;
+    }
+
+    .text-box3 .l-3 {
+        margin-right: 40px;
+        font-size: 20px;
+        font-weight: 400;
+        margin-bottom: 20px;
+    }
+
+    /* section 2*/
+    .text-box4 {}
+
+    .jumbotron {
+        padding: 0px !important;
+        margin: 100px 0px 0px 0px !important;
+        height: 580px !important;
+        position: relative;
+        top: 800 !important;
+        width: 100%;
+
+    }
+
+    .text-box4 h1 {
+        font-family: sans-serif;
+        font-weight: 300;
+        font-size: 35px;
+        margin: 60px 0px 40px 0px;
+        text-align: center;
+
+    }
+
+    .text-box4 .img-1 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 0px auto;
+        height: 120px;
+        padding-bottom: 20px;
+    }
+
+    .text-box4 p {
+        font-family: sans-serif;
+        font-size: 25px;
+        text-align: center;
+        margin-top: 20px;
+        margin-bottom: 40px;
+    }
+
+    .text-box4 h4 {
+        font-family: sans-serif;
+        font-weight: 300;
+        font-size: 25px;
+        text-align: center;
+        margin-top: 20px;
+        margin-bottom: 40px;
+    }
+
+
+    .text-box4 .p-1 {
+        font-family: sans-serif;
+        font-size: 25px;
+        text-align: center;
+        margin-top: 20px;
+    }
+}
+
+/* laptops*/
+@media only screen and (max-width: 960px){
+
+    .whole{
+        width: 100%;
+    }
+
+     .large-pic {
+         background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/img/crib-1v.jpg) center/cover no-repeat;
+         height: 70vh;
+         width: 100%;
+     }
+
+     .text-box h3 {
+         font-family: sans-serif;
+         font-weight: 300;
+         font-size: 15px;
+         text-align: center;
+         display: flex;
+         flex-direction: column;
+         align-items: middle;
+         position: relative;
+         top: 200px;
+         color: white;
+         padding-bottom: 20px;
+     }
+
+     .text-box h2 {
+         font-family: sans-serif;
+         font-weight: 100;
+         font-size: 10px;
+         text-align: center;
+         color: white;
+         display: flex;
+         flex-direction: column;
+         align-items: middle;
+         position: relative;
+         top: 200px;
+         padding-bottom: 20px;
+     }
+
+     .text-box h5 {
+         font-family: sans-serif;
+         font-weight: 300;
+         font-size: 20px;
+         text-align: center;
+         color: white;
+         display: flex;
+         flex-direction: column;
+         align-items: middle;
+         position: relative;
+         top: 200px;
+     }
+
+     .text-box2 {
+         border: 1px solid black;
+         width: 400px;
+         height: 400px;
+         background-image: radial-gradient(circle, #000000, #362d34, #61596e, #818eb0, #92c9f1);
+         color: white;
+         position: relative;
+         top: 90px;
+         left: -180px;
+         margin-right: 100px;
+         padding: 30px 50px 20px 50px;
+     }
+
+     .text-box h2 {
+         font-family: sans-serif;
+         font-weight: 100;
+         font-size: 70px;
+         text-align: center;
+         color: white;
+         display: flex;
+         flex-direction: column;
+         align-items: middle;
+         position: relative;
+         top: 200px;
+         padding-bottom: 20px;
+     }
+
+     .text-box3 {
+         margin: 80px 0px 0px 0px;
+     }
+
+     .text-box3 .h-1 {
+         font-size: 30px;
+         font-weight: 300;
+         margin-left: 20px;
+         margin-bottom: 30px;
+     }
+
+     .text-box3 ul {
+         margin-right: 40px;
+     }
+
+     .text-box3 .l-1 {
+         margin-right: 40px;
+         font-size: 20px;
+         font-weight: 400;
+         margin-bottom: 20px;
+     }
+
+     .text-box3 .l-2 {
+         margin-right: 40px;
+         font-size: 20px;
+         font-weight: 400;
+         margin-bottom: 20px;
+     }
+
+     .text-box3 .l-3 {
+         margin-right: 40px;
+         font-size: 20px;
+         font-weight: 400;
+         margin-bottom: 20px;
+     }
+
+     .jumbotron {
+         padding: 0px !important;
+         margin: 100px 0px 0px 0px !important;
+         height: 650px !important;
+         position: relative;
+         top: 800 !important;
+         width: 100%;
+
+     }
+
+     .text-box4 h1 {
+         font-family: sans-serif;
+         font-weight: 300;
+         font-size: 30px;
+         margin: 60px 0px 40px 0px;
+         text-align: center;
+
+     }
+
+     .text-box4 .img-1 {
+         display: flex;
+         flex-direction: column;
+         align-items: center;
+         margin: 0px auto;
+         height: 120px;
+         padding-bottom: 20px;
+     }
+
+     .text-box4 p {
+         font-family: sans-serif;
+         font-size: 20px;
+         text-align: center;
+         margin-top: 20px;
+         margin-bottom: 40px;
+     }
+
+     .text-box4 h4 {
+         font-family: sans-serif;
+         font-weight: 300;
+         font-size: 25px;
+         text-align: center;
+         margin-top: 20px;
+         margin-bottom: 40px;
+     }
+
+
+     .text-box4 .p-1 {
+         font-family: sans-serif;
+         font-size: 25px;
+         text-align: center;
+         margin-top: 20px;
+     }
+
+}
+
+/* mobile */
+@media only screen and (max-width: 600px){
+
+    .whole{
+        width: 100%;
+    }
+
+    .large-pic {
+        background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/img/crib-1v.jpg) center/cover no-repeat;
+        height: 70vh;
+        width: 100%;
+    }
+
+    .text-box h3 {
+        font-family: sans-serif;
+        font-weight: 300;
+        font-size: 15px;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        align-items: middle;
+        position: relative;
+        top: 180px;
+        color: white;
+        padding-bottom: 20px;
+    }
+
+    .text-box .h2-1 {
+        font-family: sans-serif;
+        font-weight: 100;
+        font-size: 35px;
+        text-align: center;
+        color: white;
+        display: flex;
+        flex-direction: column;
+        align-items: middle;
+        position: relative;
+        top: 180px;
+        padding-bottom: 20px;
+        margin-right: 30px;
+    }
+
+    .text-box h5 {
+        font-family: sans-serif;
+        font-weight: 300;
+        font-size: 20px;
+        text-align: center;
+        color: white;
+        display: flex;
+        flex-direction: column;
+        align-items: middle;
+        position: relative;
+        top: 180px;
+    }
+
+    .text-box2 {
+        border: 1px solid black;
+        width: 420px;
+        height: 350px;
+        background-image: radial-gradient(circle, #000000, #362d34, #61596e, #818eb0, #92c9f1);
+        color: white;
+        position: relative;
+        top: 40px;
+        left: 80px;
+        margin-left: -100px;
+        padding: 30px 50px 20px 50px;
+    }
+
+    .text-box2 h2 {
+        font-family: sans-serif;
+        font-weight: 300;
+        font-size: 30px;
+        text-align: center;
+        color: white;
+        padding-bottom: 20px;
+        margin-top: 60px;
+        margin-right: 10px;
+    }
+
+    .text-box2 .button-1 {
+        font-family: sans-serif;
+        font-weight: 300;
+        font-size: 20px;
+        align-items: center;
+        text-align: center;
+        background: #92c9f1;
+        color: white;
+        margin-left: 65px;
+        padding: 5px 20px 5px 20px !important;
+
+    }
+
+    .text-box2 p {
+        font-family: sans-serif;
+        font-weight: 300;
+        font-size: 15px;
+        text-align: center;
+        color: white;
+        padding-top: 30px;
+    }
+
+    .text-box h2 {
+        font-family: sans-serif;
+        font-weight: 100;
+        font-size: 70px;
+        text-align: center;
+        color: white;
+        display: flex;
+        flex-direction: column;
+        align-items: middle;
+        position: relative;
+        top: 200px;
+        padding-bottom: 20px;
+        margin-left: 30px;
+     
+    }
+
+    .text-box3 .h-1 {
+        font-size: 30px;
+        font-weight: 300;
+        margin-left: 20px;
+        margin-bottom: 30px;
+    }
+
+    .text-box3 ul {
+        margin-right: 40px;
+    }
+
+    .text-box3 .l-1 {
+        margin-right: 40px;
+        font-size: 20px;
+        font-weight: 400;
+        margin-bottom: 20px;
+    }
+
+    .text-box3 .l-2 {
+        margin-right: 40px;
+        font-size: 20px;
+        font-weight: 400;
+        margin-bottom: 20px;
+    }
+
+    .text-box3 .l-3 {
+        margin-right: 40px;
+        font-size: 20px;
+        font-weight: 400;
+        margin-bottom: 20px;
+    }
+
+    .jumbotron {
+        padding: 0px !important;
+        margin: 100px 0px 0px 0px !important;
+        height: 600px !important;
+        position: relative;
+        top: 800 !important;
+        width: 100%;
+
+    }
+
+    .text-box4 h1 {
+        font-family: sans-serif;
+        font-weight: 300;
+        font-size: 30px;
+        margin: 60px 0px 40px 0px;
+        text-align: center;
+
+    }
+
+    .text-box4 .img-1 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 0px auto;
+        height: 120px;
+        padding-bottom: 20px;
+    }
+
+    .text-box4 p {
+        font-family: sans-serif;
+        font-size: 18px;
+        text-align: center;
+        margin-top: 20px;
+        margin-bottom: 40px;
+    }
+
+    .text-box4 h4 {
+        font-family: sans-serif;
+        font-weight: 300;
+        font-size: 20px;
+        text-align: center;
+        margin-top: 20px;
+        margin-bottom: 40px;
+    }
+
+
+    .text-box4 .p-1 {
+        font-family: sans-serif;
+        font-size: 20px;
+        text-align: center;
+        margin-top: 20px;
+    }
+
+
+
+
+
+
+
+}
+
+
+
